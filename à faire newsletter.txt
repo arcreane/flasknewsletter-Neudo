@@ -1,0 +1,11 @@
+
+---------------------------------------------------------------------------
+
+- lister les catégo existantes 
+- radio button pour select la catégo désirée ------------------------------
+- préparer un éditeur de texte --------------------------------------------
+- préparer un boutton pour send le texte-----------------------------------
+- recup via ce boutton les users inscits à cette catégo
+- et envoyer à tout le monde une fois qu'on a cliqué sur le boutton
+
+---------------------------------------------------------------------------

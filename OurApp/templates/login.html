@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content_block %}
+<div class="mtop-100">
+    <a href="{{url_for('webstart')}}"><h2>Déconnexion</h2></a>
+    <a href="{{url_for('usersList')}}"><h2>Liste des utilisateurs</h2></a>
+    <a href="{{url_for('categoriesList')}}"><h2>Liste des catégories</h2></a>
+</div>
+<!--    <h1>Ecrire une news Letter</h1>-->
+
+<!--        <form action="" method="POST">-->
+<!--            <label for="">Votre news letter :</label>-->
+<!--            <textaera></textaera>-->
+
+<!--            <label for="">Selectionner catégorie(s) : </label>-->
+<!--            {% for categories in category %}-->
+<!--                 <radio>{{category.name}}</radio>-->
+<!--            {% endfor %}-->
+
+<!--            <label for=""></label>-->
+
+<!--            <button>Envoyer</button>-->
+<!--        </form>-->
+{% endblock content_block %}

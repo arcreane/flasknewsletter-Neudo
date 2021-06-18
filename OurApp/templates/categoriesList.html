@@ -1,0 +1,10 @@
+    <a href="{{url_for('login')}}"><h2>accueil</h2></a>
+
+
+<h1>Liste des catégories :</h1>
+
+<ul>
+    {% for category in categories %}
+        <a href="#"><li>{{ category.name }}</li></a>
+    {% endfor %}
+</ul>
